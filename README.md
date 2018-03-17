@@ -22,6 +22,6 @@ app cliente :http://wso2is.local:8084/travelocity.com
 linux sudo nano /etc/hosts 
 windows C:\Windows\System32\drivers\etc\hosts  
 ejemplo: 
-127.0.0.1  wso2is.local 
+##### 127.0.0.1  wso2is.local 
 
-### para mas informacion y configuracioon del WSO2 Indentity Server https://docs.wso2.com/display/IS550/Configuring+Single+Sign-On
+#### para mas informacion y configuracioon del WSO2 Indentity Server https://docs.wso2.com/display/IS550/Configuring+Single+Sign-On
