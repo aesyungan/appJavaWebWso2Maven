@@ -2,6 +2,7 @@
 ejemplo de una aplicación web en java 
 # configuracion
 proyecto_name/src/main/resources/travelocity.properties
+```
 ### A unique identifier for this SAML 2.0 Service Provider application
 SAML2.SPEntityId=travelocity.com
 ### The URL of the SAML 2.0 Assertion Consumer
@@ -14,7 +15,7 @@ OAuth2.TokenURL=https://ayungan.me:9443/oauth2/token
 OpenId.ProviderURL=https://ayungan.me:9443/openid/
 ### openid.return_to parameter
 OpenId.ReturnToURL=http://wso2is.local:8084/travelocity.com/home.jsp
-
+```
 ## estas configuraciones se realizaron para el WSO2 Identity Server 5.5.0 - RC2
 servidor: https://ayungan.me:9443
 app cliente :http://wso2is.local:8084/travelocity.com
@@ -22,8 +23,12 @@ app cliente :http://wso2is.local:8084/travelocity.com
 linux sudo nano /etc/hosts 
 windows C:\Windows\System32\drivers\etc\hosts  
 ejemplo: 
-##### 127.0.0.1  wso2is.local 
+```
+127.0.0.1  wso2is.local 
+```
 ## compilacion del proyecto
+```
 mvn package
+```
 ##### la ruta del .war esta en el dirrectrio proyecto_name/target
 #### para mas informacion y configuracioon del WSO2 Indentity Server https://docs.wso2.com/display/IS550/Configuring+Single+Sign-On
