@@ -21,8 +21,8 @@ servidor: https://ayungan.me:9443
 app cliente :http://wso2is.local:8084/travelocity.com
 #### es necesario crear un dominio para la aplicacion del cliente para q  funcione correctamente las cookies en: 
 si ejecuta localmente puede realizarlo de la siguiente manera
-linux sudo nano /etc/hosts 
-windows C:\Windows\System32\drivers\etc\hosts  
+**linux** sudo nano /etc/hosts 
+***windows*** C:\Windows\System32\drivers\etc\hosts  
 ejemplo: 
 ```
 127.0.0.1  wso2is.local 
