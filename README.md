@@ -1,7 +1,7 @@
-# appJavaWebWso2Maven
+# APLICACION WEB CON JAVA MAVEN 
 ejemplo de una aplicación web en java 
 # configuracion
-nombre_proyecto/src/main/resources/travelocity.properties
+proyecto_name/src/main/resources/travelocity.properties
 ### A unique identifier for this SAML 2.0 Service Provider application
 SAML2.SPEntityId=travelocity.com
 ### The URL of the SAML 2.0 Assertion Consumer
@@ -23,5 +23,7 @@ linux sudo nano /etc/hosts
 windows C:\Windows\System32\drivers\etc\hosts  
 ejemplo: 
 ##### 127.0.0.1  wso2is.local 
-
+## compilacion del proyecto
+mvn package
+##### la ruta del .war esta en el dirrectrio proyecto_name/target
 #### para mas informacion y configuracioon del WSO2 Indentity Server https://docs.wso2.com/display/IS550/Configuring+Single+Sign-On
